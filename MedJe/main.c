@@ -1,11 +1,12 @@
-#define N 10
+
 
 main( )
 {
     int i,j,n;
-    float med,arr[N],temp;
     printf( "Please enter the number of items:\n");
     scanf("%d", &n);
+    float med,arr[n],temp;
+    
     /*Reading item into array a*/
     
     printf("input %d values\n",n);
